@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "inter";
+    
+}
+
+/* DIV 1 : CABEÇALHO */
+#cabecalho{
+    background-color: #303030 ;
+    color: #FFFFFF;
+}
+
+#tituloCabecalho{
+    padding: 200px 0px 20px 62px;
+    font-size: 50px;
+    font-weight: 500; 
+}
+
+#textoCabecalho{
+    padding: 0px 0px 140px 62px;
+}
+
+/* DIV2 : MENU INFORMAÇÕES */
+
+#informacoes {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 160px;
+    text-align: justify;
+}
+
+#informacoes h1 {
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+#informacoes p {
+    font-weight: 400;
+    margin-bottom: 60px ;
+}
+
+/* DIV3 : MENU DE APRESENTAÇÃO */
+#apresentacao {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: justify;
+}
+
+#textoApresentacao {
+    margin: 280px 65px 0px 72px;
+}
+
+#apresentacao h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+#apresentacao p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#apresentacao img {
+    width: 460px;
+    height: 555px;
+    margin: 80px 60px 90px 0px;
+}
