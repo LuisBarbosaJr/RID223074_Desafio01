@@ -46,6 +46,7 @@
     display: grid;
     grid-auto-flow: column;
     text-align: justify;
+    width: 100%;
 }
 
 #textoApresentacao {
@@ -55,7 +56,7 @@
 #apresentacao h1 {
     font-weight: 500;
     margin-bottom: 20px;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 #apresentacao p {
@@ -68,3 +69,39 @@
     height: 555px;
     margin: 80px 60px 90px 0px;
 }
+
+/*DIV4 : MENU DE CONTATO*/
+
+#contato {
+    background-color: #303030;
+    text-align: center;
+    align-items: center;
+}
+
+#contato h1 {
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 75px 0 48px 0;
+}
+
+#contato form input {
+    width: 450px;
+    height: 60px;
+    margin-bottom: 55px;
+    border-radius: 10px;
+    color: #000000d3;
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+#contato button {
+    width: 286px;
+    height: 60px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 75px;
+    cursor: pointer;
+}
+
